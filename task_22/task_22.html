@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task_22</title>
+	<script src="task_22.js"></script>
+	<style>
+		*{
+			display: flex;
+			justify-content: space-between;
+			padding: 20px;
+		}
+		head{
+			display: none;
+		}
+		#root{
+			width: 1000px;
+			height: 300px;
+			border: 5px solid #000;
+			margin: 50px auto;
+		}
+		.one{
+			width: 445px;
+			height: 260px;
+			border: 5px solid red;
+		}
+		.two{
+			width: 170px;
+			height: 220px;
+			border: 5px solid green;
+		}
+		.three{
+			width: 30px;
+			height: 180px;
+			border: 5px solid blue;
+		}
+		input{
+			width: 50px;
+			height: 50px;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+	<div id="root">
+		<div class="one">
+			<div class="two">
+				<div class="three"></div>
+				<div class="three"></div>
+			</div>
+			<div class="two">
+				<div class="three"></div>
+				<div class="three"></div>
+			</div>
+		</div>
+		<div class="one">
+			<div class="two">
+				<div class="three"></div>
+				<div class="three"></div>
+			</div>
+			<div class="two">
+				<div class="three"></div>
+				<div class="three"></div>
+			</div>
+		</div>
+	</div>
+	<input type="button"value="前序">
+	<input type="button" value="中序">
+	<input type="button"value="后序">
+</body>
+</html>
